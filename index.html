@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS LAYOUT</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/4c48b2af8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="Navigation">
+        <div>
+          <a href=""
+            ><img
+              class="Image"
+              src="data:image/png;base64,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"
+            />&nbsp; &nbsp; Docplanner &nbsp; &nbsp; Group</a
+          >
+          &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <a href="About us">About us</a>
+          &nbsp; &nbsp; &nbsp;
+          <a href="Career">Career</a>
+          &nbsp; &nbsp; &nbsp;
+          <a href="Department">Department</a>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    &nbsp; &nbsp; &nbsp;
+    <div class="Healthcare">
+      <p>
+        Making the healthcare expereince more <br />
+        human
+      </p>
+    </div>
+
+    <div class="lead">
+      <p class="lead one">
+        We want patients to find the perfect doctor and book an appointment in
+        the most easy way. The patient journey should be enjoyable, and that's
+        why we are always next to them, to help them find the possible care,
+        anytime, anywhere.
+      </p>
+
+      <p class="lead two">
+        We also help doctors to better manage their practice, and build their
+        online reputation. with our integrated end to edn solution, doctors are
+        able not only to improve their online presence, but also to devote their
+        time to what really matters, their patients.
+      </p>
+    </div>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <section id="Docplanner">
+      <div>
+        <p class="Lemon">
+          for patients <br />
+          find a doctor, book a <br />
+          visit and solve any solve any <br />
+          related doubt
+        </p>
+      </div>
+      <div>
+        <p class="blue">
+          for Doctors <br />
+          save time managing visit and <br />
+          cut no- shows by half
+        </p>
+      </div>
+      <div>
+        <p class="black">
+          for clinics, <br />
+          deliver an exceptional patient <br />
+          experience in your clinic
+        </p>
+      </div>
+    </section>
+    <hr />
+
+    <div class="Countries">
+      <p class="countryone">
+        Improve the lives of millions <br />
+        Change yours forever
+      </p>
+      <p class="countrytwo">
+        More than 2600 teams mates share our same vision, goals and passion
+        <br />
+        with offices in warsaw,, Barcelona, munich, instanbul, rome, rio,
+        bologna <br />
+        mexico city and curitiba, our search for great talent never stops.
+      </p>
+    </div>
+
+    <div class="Country">
+      <div class="warsaw">
+        <img
+          src="https://images.unsplash.com/photo-1607427293702-036933bbf746?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Fyc2F3JTIwcG9sYW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+          alt=""
+        />
+        &nbsp; &nbsp; &nbsp;
+        <p>Warsaw  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button type="button" class="btn btn-primary">See Opening</button></p>
+        <p class="Join">Sounds interesting? join us now</p>
+        <p class="Openings"><button type="button" class="btn btn-primary">SEE ALL CURRENT OPENINGS</button></p>
+    </div>
+
+  </body>
+</html>

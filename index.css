@@ -1,0 +1,116 @@
+hr {
+  border-top: 1px dotted grey;
+  display: none;
+}
+
+.Image{
+  font-size: 10px;
+
+}
+
+.Nav {
+  display: flex;
+}
+.Navigation {
+  font-size: 20px;
+  color: aqua;
+}
+
+.Healthcare {
+  text-align: center;
+  font-family: "Arial, san-serif";
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: aqua;
+}
+
+.lead {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+#Docplanner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Lemon {
+  margin-bottom: 10px;
+  background-color: lightgreen;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+.blue {
+  margin-bottom: 10px;
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.black {
+  margin-bottom: 10px;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Healthcaretwo {
+  background-color: palegreen;
+}
+
+.leadthree {
+  height: 100px;
+  width: 10px;
+}
+
+.Countries {
+  text-align: center;
+  margin: 10px;
+}
+
+.countryone {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 50px;
+  color: aquamarine;
+}
+
+.countrytwo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Country {
+  display: flex;
+  margin: 5px;
+  justify-items: center;
+}
+
+.warsaw {
+  padding: 20px;
+}
+
+.Join{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.Openings{
+  text-align: center;
+}
